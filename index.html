@@ -19,10 +19,6 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; direction: ltr; }
 
-/* Ken Burns subtle movement */
-@keyframes kenburns1 { 0% { background-position: 50% 50%; background-size: 110% auto; } 50% { background-position: 45% 45%; background-size: 115% auto; } 100% { background-position: 50% 50%; background-size: 110% auto; } }
-@keyframes kenburns2 { 0% { background-position: 50% 50%; background-size: 112% auto; } 50% { background-position: 55% 48%; background-size: 118% auto; } 100% { background-position: 50% 50%; background-size: 112% auto; } }
-@keyframes kenburns3 { 0% { background-position: 48% 50%; background-size: 110% auto; } 50% { background-position: 52% 55%; background-size: 116% auto; } 100% { background-position: 48% 50%; background-size: 110% auto; } }
 
 .slide {
   width: 1920px;
@@ -56,7 +52,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 1: The Question ====== */
 #slide1 {
   background: radial-gradient(ellipse at center, rgba(10,10,10,0.75) 0%, rgba(0,0,0,0.85) 100%), url('presentation/slide-01-question.jpg') center/110% no-repeat;
-  animation: kenburns1 20s ease-in-out infinite;
 }
 #slide1 .headline {
   font-size: 120px;
@@ -78,7 +73,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 2: Phase 1 - Research ====== */
 #slide2 {
   background: linear-gradient(135deg, rgba(10,10,10,0.7) 0%, rgba(26,26,46,0.7) 100%), url('presentation/slide-02-research.jpg') center/112% no-repeat;
-  animation: kenburns2 22s ease-in-out infinite;
 }
 #slide2 .phase-num {
   font-size: 200px;
@@ -123,7 +117,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 3: Phase 2 - Scaling Laws ====== */
 #slide3 {
   background: linear-gradient(135deg, rgba(10,10,10,0.7) 0%, rgba(10,22,40,0.7) 100%), url('presentation/slide-03-scaling.jpg') center/110% no-repeat;
-  animation: kenburns3 18s ease-in-out infinite;
 }
 #slide3 .phase-num {
   font-size: 200px;
@@ -172,7 +165,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 4: Phase 3 - Product ====== */
 #slide4 {
   background: linear-gradient(135deg, rgba(10,10,10,0.7) 0%, rgba(10,40,24,0.7) 100%), url('presentation/slide-04-product.jpg') center/110% no-repeat;
-  animation: kenburns1 24s ease-in-out infinite;
 }
 #slide4 .phase-num {
   font-size: 200px;
@@ -230,7 +222,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 5: Phase 4 - Independent Developer ====== */
 #slide5 {
   background: radial-gradient(ellipse at center, rgba(26,10,10,0.7) 0%, rgba(0,0,0,0.8) 100%), url('presentation/slide-05-developer.jpg') center/112% no-repeat;
-  animation: kenburns2 20s ease-in-out infinite;
 }
 #slide5::before {
   content: '';
@@ -278,7 +269,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 6: Phase 5+6 - Users → Singularity ====== */
 #slide6 {
   background: radial-gradient(ellipse at center bottom, rgba(26,26,0,0.7) 0%, rgba(0,0,0,0.8) 100%), url('presentation/slide-06-singularity.jpg') center/110% no-repeat;
-  animation: kenburns3 22s ease-in-out infinite;
 }
 #slide6 .two-phases {
   display: flex;
@@ -324,7 +314,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 7: The Fuel - Chinese Models ====== */
 #slide7 {
   background: linear-gradient(180deg, rgba(10,10,10,0.7) 0%, rgba(26,10,10,0.7) 100%), url('presentation/slide-07-fuel.jpg') center/110% no-repeat;
-  animation: kenburns1 18s ease-in-out infinite;
 }
 #slide7 .headline {
   font-size: 64px;
@@ -402,7 +391,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 8: The Dream Metaphor ====== */
 #slide8 {
   background: radial-gradient(ellipse at center, rgba(10,10,26,0.7) 0%, rgba(0,0,0,0.8) 100%), url('presentation/slide-08-dream.jpg') center/112% no-repeat;
-  animation: kenburns2 24s ease-in-out infinite;
 }
 #slide8 .headline {
   font-size: 72px;
@@ -464,7 +452,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 9: AI Lives in Environment ====== */
 #slide9 {
   background: radial-gradient(ellipse at center, rgba(0,26,10,0.7) 0%, rgba(0,0,0,0.8) 100%), url('presentation/slide-09-environment.jpg') center/110% no-repeat;
-  animation: kenburns3 20s ease-in-out infinite;
 }
 #slide9::before {
   content: '';
@@ -540,7 +527,6 @@ body { font-family: 'Heebo', sans-serif; background: #000; overflow: hidden; dir
 /* ====== SLIDE 10: Agent vs Model ====== */
 #slide10 {
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('presentation/slide-10-agent-vs-model.jpg') center/112% no-repeat;
-  animation: kenburns1 22s ease-in-out infinite;
 }
 #slide10 .headline {
   font-size: 56px;
